@@ -1,6 +1,10 @@
 <h1 align="center">Hi 👋, I'm Lucas Nunes Joaquim</h1>
-<h3 align="center">I'm a full stack software developer since 2015, and here I will shere with you some of my stuff.</h3>
+<h3 align="center">I'm a full stack software developer, and here I will shere with you some of my stuff.</h3>
 
+
+<details open>
+  <summary>:speech_balloon: Info: </summary>
+  
 - 🔭 I’m currently working on many projects at Kabum!
 
 - 🌱 I’m currently learning about good practices of Clean Code! And God, I have a lot to work on.
@@ -13,14 +17,62 @@
 
 - ⚡ Fun fact: I know how to read Korean alphabet even though I don't understand Korean language.
 
-<p align="left"><img src="https://devicons.github.io/devicon/devicon.git/icons/angularjs/angularjs-original.svg" alt="angularjs" width="40" height="40"/> <img src="https://devicons.github.io/devicon/devicon.git/icons/bootstrap/bootstrap-plain.svg" alt="bootstrap" width="40" height="40"/> <img src="https://www.chartjs.org/media/logo-title.svg" alt="chartjs" width="40" height="40"/> <img src="https://devicons.github.io/devicon/devicon.git/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> <img src="https://devicons.github.io/devicon/devicon.git/icons/gulp/gulp-plain.svg" alt="gulp" width="40" height="40"/> <img src="https://devicons.github.io/devicon/devicon.git/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> <img src="https://devicons.github.io/devicon/devicon.git/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> <img src="https://devicons.github.io/devicon/devicon.git/icons/laravel/laravel-plain-wordmark.svg" alt="laravel" width="40" height="40"/> <img src="https://devicons.github.io/devicon/devicon.git/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> <img src="https://raw.githubusercontent.com/prplx/svg-logos/5585531d45d294869c4eaab4d7cf2e9c167710a9/svg/materialize.svg" alt="materialize" width="40" height="40"/> <img src="https://devicons.github.io/devicon/devicon.git/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> <img src="https://devicons.github.io/devicon/devicon.git/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/nuxtjs/nuxtjs-icon.svg" alt="nuxtjs" width="40" height="40"/> <img src="https://devicons.github.io/devicon/devicon.git/icons/php/php-original.svg" alt="php" width="40" height="40"/> <img src="https://devicons.github.io/devicon/devicon.git/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> <img src="https://devicons.github.io/devicon/devicon.git/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/> <img src="https://devicons.github.io/devicon/devicon.git/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> <img src="https://devicons.github.io/devicon/devicon.git/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="40" height="40"/></p><p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lukasnunesj&layout=compact&hide=html" alt="lukasnunesj" /></p>
+</details>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=lukasnunesj&show_icons=true" alt="lukasnunesj" /></p>
+<details>
+    <summary>:muscle: Skils</summary>
 
-<p align="center">
-<a href="https://linkedin.com/in/lucasnunesjoaquim" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="lucasnunesjoaquim" height="30" width="30" /></a>
-</p>
+### Languages
 
-#
+- <img src="https://img.shields.io/badge/php-%23777BB4.svg?&style=for-the-badge&logo=php&logoColor=white" alt="php">
+- <img src="https://img.shields.io/badge/javascript-%23F7DF1E.svg?&style=flat-square&logo=javascript&logoColor=black&labelColor=black" alt="javascript">
+- <img src="https://img.shields.io/badge/typescript%20-%23007ACC.svg?&style=for-the-badge&logo=typescript&logoColor=white" alt="typescript">
+
+### Styling
+- <img src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white" alt="html5">
+- <img src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white" alt="css3">
+- <img src="https://img.shields.io/badge/sass-%23CC6699.svg?&style=for-the-badge&logo=sass&logoColor=white" alt="sass">
+
+### Database
+- <img src="https://img.shields.io/badge/mysql-%234479A1.svg?&style=for-the-badge&logo=mysql&logoColor=white" alt="mysql">
+- <img src="https://img.shields.io/badge/postgres-%23316192.svg?&style=for-the-badge&logo=postgresql&logoColor=white" alt="postgresql">
+
+### Versioning
+- <img src="https://img.shields.io/badge/git-%23F05032.svg?&style=for-the-badge&logo=git&logoColor=white" alt="git">
+- <img src="https://img.shields.io/badge/github-%23181717.svg?&style=for-the-badge&logo=github&logoColor=white" alt="github">
+
+### Frameworks
+- Frontend
+    - <img src="https://img.shields.io/badge/angular%20-%23DD0031.svg?&style=for-the-badge&logo=angular&logoColor=white" alt="angular">
+    - <img src="https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="react">
+    - <img src="https://img.shields.io/badge/vuejs%20-%2335495e.svg?&style=for-the-badge&logo=vue.js&logoColor=%234FC08D" alt="vue">
+        - <img src="https://img.shields.io/badge/nuxt%20-%2300C58E.svg?&style=for-the-badge&logo=nuxt&logoColor=%234FC08D" alt="nuxt">
+- Backend
+    - <img src="https://img.shields.io/badge/laravel%20-%23FF2D20.svg?&style=for-the-badge&logo=laravel&logoColor=white" alt="laravel">
+    - <img src="https://img.shields.io/badge/express.js%20-%23404d59.svg?&style=for-the-badge" alt="express">
+- Styling
+    - <img src="https://img.shields.io/badge/bootstrap%20-%23563D7C.svg?&style=for-the-badge&logo=bootstrap&logoColor=white" alt="bootstrap"> 
+    - <img src="https://img.shields.io/badge/materialize%20-%23ee6e73.svg?&style=for-the-badge" alt="materialize">
+
+### Systems
+- <img src="https://img.shields.io/badge/windows-%230078D6.svg?&style=for-the-badge&logo=windows&logoColor=white" alt="windows">
+- <img src="https://img.shields.io/badge/linux-%23FCC624.svg?&style=for-the-badge&logo=linux&logoColor=white" alt="linux">
+
+### Other Stuff I play sometimes
+- <img src="https://img.shields.io/badge/gulp-%23CF4647.svg?&style=for-the-badge&logo=gulp&logoColor=white" alt="gulp">
+- <img src="https://img.shields.io/badge/chart.js-%23FF6384.svg?&style=for-the-badge&logo=chart.js&logoColor=white" alt="chartjs">
+
+</details>
+
+<details>
+    <summary>📊 My stats</summary>
+    <p>
+        <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lukasnunesj&layout=compact&hide=html" alt="lukasnunesj" />
+    </p>
+    <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=lukasnunesj&show_icons=true" alt="lukasnunesj" /></p>
+    <!--START_SECTION:waka-->
+    <!--END_SECTION:waka-->
+</details>
+- - - 
 
 [![Spotify](https://novatorem.lukasnunesj.vercel.app/api/spotify)](https://open.spotify.com/user/lukasnunej)
