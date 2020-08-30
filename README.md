@@ -5,6 +5,8 @@
 <details open>
   <summary>:speech_balloon: Info: </summary>
   
+<p>I live in Limeira, a city in the countryside of São Paulo, Brazil. I'm 22 yo and I've been programming since 2015. I'm current workig at Kabum, the biggest eletronics e-commerce of Latin America, and some sometimes I   </p>
+  
 - 🔭 I’m currently working on many projects at Kabum!
 
 - 🌱 I’m currently learning about good practices of Clean Code! And God, I have a lot to work on.
@@ -12,8 +14,6 @@
 - 🤔 I’m looking for help with soft skills. I am very bad at organizing and finishing what I've started.
 
 - 💬 Ask me about literally anythig! I like to talk about pretty much any topic. I love learning something new!
-
-- 📫 How to reach me just send me a e-mail lukasnunesj@gmail.com
 
 - ⚡ Fun fact: I know how to read Korean alphabet even though I don't understand Korean language.
 
@@ -65,7 +65,7 @@
 </details>
 
 <details>
-    <summary>📊 My stats</summary>
+    <summary>:bar_chart: My stats</summary>
     <p>
         <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lukasnunesj&layout=compact&hide=html" alt="lukasnunesj" />
     </p>
@@ -75,5 +75,7 @@
 </details>
 
 - - - 
+
+### :headphones: Checkout what I'm listening to
 
 [![Spotify](https://novatorem.lukasnunesj.vercel.app/api/spotify)](https://open.spotify.com/user/lukasnunej)
