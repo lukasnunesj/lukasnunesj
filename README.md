@@ -5,7 +5,7 @@
 <details open>
   <summary>:speech_balloon: Info: </summary>
   
-<p>I live in Limeira, a city in the countryside of São Paulo, Brazil. I'm 22 yo and I've been programming since 2015. I'm current workig at Kabum, the biggest eletronics e-commerce of Latin America, and some sometimes I play with some new technologies or tools here on this profile. </p>
+<p>I live in Limeira, a city in the countryside of São Paulo, Brazil. I'm 22 yo and I've been programming since 2015. I'm current workig at Kabum, the biggest e-commerce of eletronics from Latin America, and some sometimes I play with some new technologies and tools here on this profile. </p>
   
 - 🔭 I’m currently working on a react project called WordOfToday
 
@@ -20,7 +20,7 @@
 </details>
 
 <details>
-    <summary>:muscle: Skils</summary>
+    <summary>:muscle: Skills</summary>
 
 ### Languages
 
