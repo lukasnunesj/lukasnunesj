@@ -5,9 +5,9 @@
 <details open>
   <summary>:speech_balloon: Info: </summary>
   
-<p>I live in Limeira, a city in the countryside of São Paulo, Brazil. I'm 22 yo and I've been programming since 2015. I'm current workig at Kabum, the biggest eletronics e-commerce of Latin America, and some sometimes I   </p>
+<p>I live in Limeira, a city in the countryside of São Paulo, Brazil. I'm 22 yo and I've been programming since 2015. I'm current workig at Kabum, the biggest eletronics e-commerce of Latin America, and some sometimes I play with some new technologies or tools here on this profile. </p>
   
-- 🔭 I’m currently working on many projects at Kabum!
+- 🔭 I’m currently working on a react project called WordOfToday
 
 - 🌱 I’m currently learning about good practices of Clean Code! And God, I have a lot to work on.
 
