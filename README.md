@@ -25,7 +25,7 @@
 ### Languages
 
 - <img src="https://img.shields.io/badge/php-%23777BB4.svg?&style=for-the-badge&logo=php&logoColor=white" alt="php">
-- <img src="https://img.shields.io/badge/javascript-%23F7DF1E.svg?&style=flat-square&logo=javascript&logoColor=black&labelColor=black" alt="javascript">
+- <img src="https://img.shields.io/badge/javascript-%23F7DF1E.svg?&style=for-the-badge&logo=javascript&logoColor=black" alt="javascript">
 - <img src="https://img.shields.io/badge/typescript%20-%23007ACC.svg?&style=for-the-badge&logo=typescript&logoColor=white" alt="typescript">
 
 ### Styling
@@ -46,7 +46,7 @@
     - <img src="https://img.shields.io/badge/angular%20-%23DD0031.svg?&style=for-the-badge&logo=angular&logoColor=white" alt="angular">
     - <img src="https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="react">
     - <img src="https://img.shields.io/badge/vuejs%20-%2335495e.svg?&style=for-the-badge&logo=vue.js&logoColor=%234FC08D" alt="vue">
-        - <img src="https://img.shields.io/badge/nuxt%20-%2300C58E.svg?&style=for-the-badge&logo=nuxt&logoColor=%234FC08D" alt="nuxt">
+        <img src="https://img.shields.io/badge/nuxt%20-%2300C58E.svg?&style=for-the-badge&logo=nuxt&logoColor=%234FC08D" alt="nuxt">
 - Backend
     - <img src="https://img.shields.io/badge/laravel%20-%23FF2D20.svg?&style=for-the-badge&logo=laravel&logoColor=white" alt="laravel">
     - <img src="https://img.shields.io/badge/express.js%20-%23404d59.svg?&style=for-the-badge" alt="express">
@@ -73,6 +73,7 @@
     <!--START_SECTION:waka-->
     <!--END_SECTION:waka-->
 </details>
+
 - - - 
 
 [![Spotify](https://novatorem.lukasnunesj.vercel.app/api/spotify)](https://open.spotify.com/user/lukasnunej)
