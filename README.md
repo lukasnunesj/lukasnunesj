@@ -28,3 +28,7 @@ And:
 - 📫 How to reach me: just send me a e-mail : lukasnunesj@gmail.com
 - ⚡ Fun fact: I know how to read Korean alphabet even though I don't understand Korean language.
 
+
+#
+
+[![Spotify](https://novatorem.lukasnunesj.vercel.app/api/spotify)](https://open.spotify.com/user/lukasnunej)
