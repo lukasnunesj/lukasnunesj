@@ -34,7 +34,7 @@ const questions = [{
         {
             name: `${emoji.get("x")} Just ${chalk.hex("#ff0000").bold("quit")}.`,
             value: () => {
-                console.log('Ok, bye.\n')
+                console.log(`Ok, bye. ${emoji.get("wave")} \n`)
             }
         }
     ]
