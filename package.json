@@ -40,14 +40,7 @@
     "demo": "node ./src",
     "issues": "git-issues",
     "license": "license-checker --production --onlyunknown --csv",
-    "lint": "standard --verbose --fix src/*.js",
-    "prelint": "npm run pretty",
-    "pretest": "npm run lint",
-    "pretty": "prettier-standard 'src/*.js'",
-    "secure": "echo skipping for now nsp check",
-    "size": "t=\"$(npm pack .)\"; wc -c \"${t}\"; tar tvf \"${t}\"; rm \"${t}\";",
-    "test": "npm run demo",
-    "unused-deps": "dependency-check --unused --no-dev ."
+    "test": "npm run demo"
   },
   "keywords": [
     "lucasnunesj",
