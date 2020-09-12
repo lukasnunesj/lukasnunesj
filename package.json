@@ -1,7 +1,7 @@
 {
   "name": "lucasnunesj",
   "description": "",
-  "version": "2.0.3",
+  "version": "3.0.0",
   "author": "Lucas Nunes Joaquim <lukasnunesj@gmail.com>",
   "license": "MIT",
   "main": "src/",
@@ -61,13 +61,13 @@
     "standard": "12.0.1"
   },
   "dependencies": {
-    "minimist": "^1.2.5",
-    "prettyjson": "^1.2.1",
     "boxen": "^4.2.0",
     "chalk": "^4.1.0",
     "clear": "^0.1.0",
     "inquirer": "^7.3.2",
-    "open": "^7.0.4"
+    "minimist": "^1.2.5",
+    "open": "^7.0.4",
+    "prettyjson": "^1.2.1"
   },
   "release": {
     "analyzeCommits": "simple-commit-message"
