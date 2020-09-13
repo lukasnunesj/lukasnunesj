@@ -1,0 +1,75 @@
+{
+  "name": "lucasnunesj",
+  "description": "",
+  "version": "3.1.1",
+  "author": "Lucas Nunes Joaquim <lukasnunesj@gmail.com>",
+  "license": "MIT",
+  "main": "src/",
+  "bin": {
+    "lucasnunesj": "./src/index.js"
+  },
+  "homepage": "https://lucasnunes.dev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lukasnunesj/lukasnunesj.git"
+  },
+  "bugs": "https://github.com/lukasnunesj/lukasnunesj/issues",
+  "config": {
+    "pre-git": {
+      "commit-msg": "simple",
+      "pre-commit": [
+        "npm prune",
+        "npm run deps",
+        "npm test",
+        "git add src/*.js",
+        "npm run ban"
+      ],
+      "pre-push": [
+        "npm run unused-deps",
+        "npm run secure",
+        "npm run license",
+        "npm run ban -- --all",
+        "npm run size"
+      ],
+      "post-commit": [],
+      "post-merge": []
+    }
+  },
+  "scripts": {
+    "deps": "deps-ok && dependency-check --no-dev .",
+    "demo": "node ./src",
+    "issues": "git-issues",
+    "license": "license-checker --production --onlyunknown --csv",
+    "test": "npm run demo"
+  },
+  "keywords": [
+    "lucasnunesj",
+    "cli",
+    "information"
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/"
+  },
+  "devDependencies": {
+    "dependency-check": "3.2.1",
+    "deps-ok": "1.4.1",
+    "git-issues": "1.3.1",
+    "license-checker": "24.0.1",
+    "nsp": "3.2.1",
+    "pre-git": "3.17.1",
+    "prettier-standard": "8.0.1",
+    "standard": "12.0.1"
+  },
+  "dependencies": {
+    "boxen": "^4.2.0",
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "inquirer": "^7.3.2",
+    "node-emoji": "^1.10.0",
+    "open": "^7.0.4",
+    "prettyjson": "^1.2.1"
+  },
+  "release": {
+    "analyzeCommits": "simple-commit-message"
+  }
+}
