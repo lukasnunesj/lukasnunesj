@@ -67,7 +67,7 @@ const me = boxen(
         `${data.labelWeb}  ${data.web}`,
         `${data.labelCard}  ${data.npx}`,
         `${chalk.white.italic(
-      "Sou um curiso, um entusiasta e um estudante na maior parte do tempo."
+      "Sou um curioso, um entusiasta e um estudante na maior parte do tempo."
     )}`,
         `${chalk.white.italic('Nas horas vagas eu escrevo codigo que outros podem ler.')}`
     ].join('\n'), {
