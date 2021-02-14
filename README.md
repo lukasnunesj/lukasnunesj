@@ -5,15 +5,15 @@
 <details open>
   <summary>:speech_balloon: Info </summary>
   
-<p>I live in Limeira, a city in the countryside of São Paulo, Brazil. I'm 22 yo and I've been programming since 2015. I'm current workig at Kabum, the biggest e-commerce of eletronics from Latin America, and some sometimes I play with some new technologies and tools here on this profile. </p>
+<p>I live in Limeira, a city in the countryside of São Paulo, Brazil. I'm 22 yo, and I've been programming since 2015.  Currently, I'm working at Kabum, the biggest e-commerce of electronics from Latin America, and some sometimes I play with some new technologies and tools, which I push here on this profile. </p>
   
-- 🔭 I’m currently working on a react project called WordOfToday
+- 🔭 I’m currently working on improving my skills at Javascript (node and front end frameworks)
 
 - 🌱 I’m currently learning about good practices of Clean Code! And God, I have a lot to work on.
 
 - 🤔 I’m looking for help with soft skills. I am very bad at organizing and finishing what I've started.
 
-- 💬 Ask me about literally anythig! I like to talk about pretty much any topic. I love learning something new!
+- 💬 Ask me about literally anything! I like to talk about pretty much any topic. I love learning something new!
 
 - ⚡ Fun fact: I know how to read Korean alphabet even though I don't understand Korean language.
 
