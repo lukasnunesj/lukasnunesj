@@ -1,11 +1,11 @@
 <h1 align="center">Hi 👋, I'm Lucas Nunes Joaquim</h1>
-<h3 align="center">I'm a full stack software developer, and here I will shere with you some of my stuff.</h3>
+<h3 align="center">I'm a full stack software developer, and here I will share with you some of my stuff.</h3>
 
 
 <details open>
   <summary>:speech_balloon: Info </summary>
   
-<p>I live in Limeira, a city in the countryside of São Paulo, Brazil. I'm 22 yo, and I've been programming since 2015.  Currently, I'm working at Kabum, the biggest e-commerce of electronics from Latin America, and some sometimes I play with some new technologies and tools, which I push here on this profile. </p>
+<p>I live in Limeira, a city in the countryside of São Paulo, Brazil. I'm 22 yo, and I've been programming since 2015.  Currently, I'm working at Kabum, the biggest e-commerce of electronics from Latin America, and sometimes I play with some new technologies and tools, which I push here on this profile. </p>
   
 - 🔭 I’m currently working on improving my skills at Javascript (node and front end frameworks)
 
