@@ -7,11 +7,11 @@
   
 <p>I live in Limeira, a city in the countryside of São Paulo, Brazil. I'm 22 yo, and I've been programming since 2015.  Currently, I'm working at Kabum, the biggest e-commerce of electronics from Latin America, and sometimes I play with some new technologies and tools, which I push here on this profile. </p>
   
-- 🔭 I’m currently working on improving my skills at Javascript (node and front end frameworks)
+- 🔭 I’m currently working on improving my skills at Javascript (Node and front end frameworks)
 
 - 🌱 I’m currently learning about good practices of Clean Code! And God, I have a lot to work on.
 
-- 🤔 I’m looking for help with soft skills. I am very bad at organizing and finishing what I've started.
+- 🤔 I’m looking for help with soft skills. I still need to improve at organizing.
 
 - 💬 Ask me about literally anything! I like to talk about pretty much any topic. I love learning something new!
 
