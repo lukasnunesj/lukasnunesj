@@ -20,7 +20,7 @@
 </details>
 
 <details>
-    <summary>:muscle: Skills</summary>
+    <summary>:hammer_and_pick: Tools</summary>
 
 ### Languages
 
