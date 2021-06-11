@@ -22,10 +22,7 @@
         "npm run deps"
       ],
       "pre-push": [
-        "npm run unused-deps",
-        "npm run secure",
-        "npm run license",
-        "npm run size"
+        "npm run license"
       ],
       "post-commit": [],
       "post-merge": []
