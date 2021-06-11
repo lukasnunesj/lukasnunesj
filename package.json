@@ -19,16 +19,12 @@
       "commit-msg": "simple",
       "pre-commit": [
         "npm prune",
-        "npm run deps",
-        "npm test",
-        "git add src/*.js",
-        "npm run ban"
+        "npm run deps"
       ],
       "pre-push": [
         "npm run unused-deps",
         "npm run secure",
         "npm run license",
-        "npm run ban -- --all",
         "npm run size"
       ],
       "post-commit": [],
