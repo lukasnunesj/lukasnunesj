@@ -18,11 +18,11 @@
     "pre-git": {
       "commit-msg": "simple",
       "pre-commit": [
-        "npm prune",
-        "npm run deps"
+        "yarn install",
+        "yarn deps"
       ],
       "pre-push": [
-        "npm run license"
+        "yarn license"
       ],
       "post-commit": [],
       "post-merge": []
@@ -33,7 +33,7 @@
     "demo": "node ./src",
     "issues": "git-issues",
     "license": "license-checker --production --onlyunknown --csv",
-    "test": "npm run demo"
+    "test": "yarn demo"
   },
   "keywords": [
     "lucasnunesj",
