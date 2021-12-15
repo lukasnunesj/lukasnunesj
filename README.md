@@ -100,19 +100,16 @@ Sunday       18 commits     ██████░░░░░░░░░░░�
 ⌚︎ Time Zone: America/Sao_Paulo
 
 💬 Programming Languages: 
-JavaScript               22 mins             █████████████████░░░░░░░░   68.95% 
-HTML                     10 mins             ███████░░░░░░░░░░░░░░░░░░   31.05%
+No Activity Tracked This Week
 
 🔥 Editors: 
-VS Code                  32 mins             █████████████████████████   100.0%
+No Activity Tracked This Week
 
 🐱‍💻 Projects: 
-Unknown Project          19 mins             ██████████████░░░░░░░░░░░   58.8% 
-nuxeo-10.10              8 mins              ██████░░░░░░░░░░░░░░░░░░░   26.56% 
-nuxeo-web-ui             4 mins              ███░░░░░░░░░░░░░░░░░░░░░░   14.64%
+No Activity Tracked This Week
 
 💻 Operating System: 
-Windows                  32 mins             █████████████████████████   100.0%
+No Activity Tracked This Week
 
 ```
 
@@ -133,7 +130,7 @@ PHP                      1 repo              █░░░░░░░░░░�
 ![Chart not found](https://raw.githubusercontent.com/lukasnunesj/lukasnunesj/master/charts/bar_graph.png) 
 
 
- Last Updated on 14/12/2021
+ Last Updated on 15/12/2021
 <!--END_SECTION:waka-->
 </details>
    
