@@ -100,19 +100,16 @@ Sunday       16 commits     ████████░░░░░░░░░�
 ⌚︎ Time Zone: America/Sao_Paulo
 
 💬 Programming Languages: 
-JavaScript               1 hr 43 mins        ███████████████░░░░░░░░░░   61.39% 
-Vue.js                   51 mins             ███████░░░░░░░░░░░░░░░░░░   30.5% 
-JSON                     13 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   8.11%
+No Activity Tracked This Week
 
 🔥 Editors: 
-VS Code                  2 hrs 49 mins       █████████████████████████   100.0%
+No Activity Tracked This Week
 
 🐱‍💻 Projects: 
-bookfindr                2 hrs 13 mins       ███████████████████░░░░░░   78.6% 
-watch-store              36 mins             █████░░░░░░░░░░░░░░░░░░░░   21.4%
+No Activity Tracked This Week
 
 💻 Operating System: 
-Linux                    2 hrs 49 mins       █████████████████████████   100.0%
+No Activity Tracked This Week
 
 ```
 
@@ -133,7 +130,7 @@ PHP                      1 repo              █░░░░░░░░░░�
 ![Chart not found](https://raw.githubusercontent.com/lukasnunesj/lukasnunesj/master/charts/bar_graph.png) 
 
 
- Last Updated on 29/03/2022 03:32:10 UTC
+ Last Updated on 30/03/2022 03:31:27 UTC
 <!--END_SECTION:waka-->
 </details>
    
