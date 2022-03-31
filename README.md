@@ -100,16 +100,17 @@ Sunday       16 commits     ████████░░░░░░░░░�
 ⌚︎ Time Zone: America/Sao_Paulo
 
 💬 Programming Languages: 
-No Activity Tracked This Week
+YAML                     1 min               ██████████████████░░░░░░░   75.17% 
+Bash                     0 secs              ██████░░░░░░░░░░░░░░░░░░░   24.83%
 
 🔥 Editors: 
-No Activity Tracked This Week
+VS Code                  2 mins              █████████████████████████   100.0%
 
 🐱‍💻 Projects: 
-No Activity Tracked This Week
+Unknown Project          2 mins              █████████████████████████   100.0%
 
 💻 Operating System: 
-No Activity Tracked This Week
+Windows                  2 mins              █████████████████████████   100.0%
 
 ```
 
@@ -130,7 +131,7 @@ PHP                      1 repo              █░░░░░░░░░░�
 ![Chart not found](https://raw.githubusercontent.com/lukasnunesj/lukasnunesj/master/charts/bar_graph.png) 
 
 
- Last Updated on 30/03/2022 03:31:27 UTC
+ Last Updated on 31/03/2022 03:29:39 UTC
 <!--END_SECTION:waka-->
 </details>
    
