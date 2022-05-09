@@ -102,16 +102,16 @@ Sunday       18 commits     ████████░░░░░░░░░�
 ⌚︎ Time Zone: America/Sao_Paulo
 
 💬 Programming Languages: 
-TypeScript               1 hr 1 min          █████████████████████████   100.0%
+No Activity Tracked This Week
 
 🔥 Editors: 
-VS Code                  1 hr 1 min          █████████████████████████   100.0%
+No Activity Tracked This Week
 
 🐱‍💻 Projects: 
-scrumPoker               1 hr 1 min          █████████████████████████   100.0%
+No Activity Tracked This Week
 
 💻 Operating System: 
-Linux                    1 hr 1 min          █████████████████████████   100.0%
+No Activity Tracked This Week
 
 ```
 
@@ -132,7 +132,7 @@ PHP                      1 repo              █░░░░░░░░░░�
 ![Chart not found](https://raw.githubusercontent.com/lukasnunesj/lukasnunesj/master/charts/bar_graph.png) 
 
 
- Last Updated on 08/05/2022 03:42:49 UTC
+ Last Updated on 09/05/2022 03:50:06 UTC
 <!--END_SECTION:waka-->
 </details>
    
