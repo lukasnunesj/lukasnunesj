@@ -71,7 +71,7 @@
     </p>
     <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=lukasnunesj&show_icons=true" alt="lukasnunesj" /></p>
     <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-0%20secs-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-1%2C249%20hrs%2023%20mins-blue)
 
 **I'm a Night 🦉** 
 
@@ -132,7 +132,7 @@ PHP                      1 repo              █░░░░░░░░░░�
 ![Chart not found](https://raw.githubusercontent.com/lukasnunesj/lukasnunesj/master/charts/bar_graph.png) 
 
 
- Last Updated on 23/07/2022 03:53:36 UTC
+ Last Updated on 18/08/2022 04:20:33 UTC
 <!--END_SECTION:waka-->
 </details>
    
