@@ -71,7 +71,49 @@
     </p>
     <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=lukasnunesj&show_icons=true" alt="lukasnunesj" /></p>
     <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-0%20secs-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-1%2C259%20hrs%2028%20mins-blue)
+
+**I'm a Night 🦉** 
+
+```text
+🌞 Morning    3 commits      ███░░░░░░░░░░░░░░░░░░░░░░   12.0% 
+🌆 Daytime    9 commits      █████████░░░░░░░░░░░░░░░░   36.0% 
+🌃 Evening    10 commits     ██████████░░░░░░░░░░░░░░░   40.0% 
+🌙 Night      3 commits      ███░░░░░░░░░░░░░░░░░░░░░░   12.0%
+
+```
+📅 **I'm Most Productive on Monday** 
+
+```text
+Monday       13 commits     █████████████░░░░░░░░░░░░   52.0% 
+Tuesday      1 commits      █░░░░░░░░░░░░░░░░░░░░░░░░   4.0% 
+Wednesday    1 commits      █░░░░░░░░░░░░░░░░░░░░░░░░   4.0% 
+Thursday     7 commits      ███████░░░░░░░░░░░░░░░░░░   28.0% 
+Friday       0 commits      ░░░░░░░░░░░░░░░░░░░░░░░░░   0.0% 
+Saturday     1 commits      █░░░░░░░░░░░░░░░░░░░░░░░░   4.0% 
+Sunday       2 commits      ██░░░░░░░░░░░░░░░░░░░░░░░   8.0%
+
+```
+
+
+📊 **This Week I Spent My Time On** 
+
+```text
+⌚︎ Time Zone: America/Sao_Paulo
+
+💬 Programming Languages: 
+No Activity Tracked This Week
+
+🔥 Editors: 
+No Activity Tracked This Week
+
+🐱‍💻 Projects: 
+No Activity Tracked This Week
+
+💻 Operating System: 
+No Activity Tracked This Week
+
+```
 
 **I Mostly Code in TypeScript** 
 
@@ -90,7 +132,7 @@ PHP                      1 repo              █░░░░░░░░░░�
 ![Chart not found](https://raw.githubusercontent.com/lukasnunesj/lukasnunesj/master/charts/bar_graph.png) 
 
 
- Last Updated on 05/09/2022 04:47:21 UTC
+ Last Updated on 06/09/2022 04:50:42 UTC
 <!--END_SECTION:waka-->
 </details>
    
