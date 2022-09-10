@@ -71,7 +71,7 @@
     </p>
     <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=lukasnunesj&show_icons=true" alt="lukasnunesj" /></p>
     <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-1%2C259%20hrs%2028%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-1%2C259%20hrs%2053%20mins-blue)
 
 **I'm a Night 🦉** 
 
@@ -102,16 +102,21 @@ Sunday       2 commits      ██░░░░░░░░░░░░░░░�
 ⌚︎ Time Zone: America/Sao_Paulo
 
 💬 Programming Languages: 
-No Activity Tracked This Week
+Bash                     15 mins             ███████████████░░░░░░░░░░   62.28% 
+Other                    8 mins              █████████░░░░░░░░░░░░░░░░   36.06% 
+Batchfile                0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   1.11% 
+TypeScript               0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   0.54%
 
 🔥 Editors: 
-No Activity Tracked This Week
+VS Code                  24 mins             █████████████████████████   100.0%
 
 🐱‍💻 Projects: 
-No Activity Tracked This Week
+Unknown Project          24 mins             ████████████████████████░   99.46% 
+diceRoller               0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   0.54%
 
 💻 Operating System: 
-No Activity Tracked This Week
+WSL                      15 mins             ███████████████░░░░░░░░░░   62.82% 
+Windows                  9 mins              █████████░░░░░░░░░░░░░░░░   37.18%
 
 ```
 
@@ -132,7 +137,7 @@ PHP                      1 repo              █░░░░░░░░░░�
 ![Chart not found](https://raw.githubusercontent.com/lukasnunesj/lukasnunesj/master/charts/bar_graph.png) 
 
 
- Last Updated on 09/09/2022 04:25:32 UTC
+ Last Updated on 10/09/2022 04:39:56 UTC
 <!--END_SECTION:waka-->
 </details>
    
