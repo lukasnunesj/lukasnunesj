@@ -71,7 +71,7 @@
     </p>
     <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=lukasnunesj&show_icons=true" alt="lukasnunesj" /></p>
     <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-1%2C292%20hrs%2048%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-1%2C293%20hrs%2019%20mins-blue)
 
 **I'm a Night 🦉** 
 
@@ -102,16 +102,17 @@ Sunday       2 commits      █████░░░░░░░░░░░░�
 ⌚︎ Time Zone: America/Sao_Paulo
 
 💬 Programming Languages: 
-No Activity Tracked This Week
+Other                    31 mins             █████████████████████████   99.73% 
+JSON                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   0.27%
 
 🔥 Editors: 
-No Activity Tracked This Week
+VS Code                  31 mins             █████████████████████████   100.0%
 
 🐱‍💻 Projects: 
-No Activity Tracked This Week
+scrumPoker               31 mins             █████████████████████████   100.0%
 
 💻 Operating System: 
-No Activity Tracked This Week
+WSL                      31 mins             █████████████████████████   100.0%
 
 ```
 
@@ -132,7 +133,7 @@ PHP                      1 repo              █░░░░░░░░░░�
 ![Chart not found](https://raw.githubusercontent.com/lukasnunesj/lukasnunesj/master/charts/bar_graph.png) 
 
 
- Last Updated on 19/01/2023 03:19:05 UTC
+ Last Updated on 20/01/2023 03:19:30 UTC
 <!--END_SECTION:waka-->
 </details>
    
