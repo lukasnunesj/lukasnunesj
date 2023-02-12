@@ -102,18 +102,16 @@ Sunday           2 commits       █████░░░░░░░░░░�
 ⌚︎ Time Zone: America/Sao_Paulo
 
 💬 Programming Languages: 
-Java                     4 mins              ██████████████████░░░░░░░   74.80 % 
-Git Config               1 min               █████░░░░░░░░░░░░░░░░░░░░   19.92 % 
-Markdown                 0 secs              █░░░░░░░░░░░░░░░░░░░░░░░░   05.28 % 
+No Activity Tracked This Week
 
 🔥 Editors: 
-VS Code                  5 mins              █████████████████████████   100.00 % 
+No Activity Tracked This Week
 
 🐱‍💻 Projects: 
-ui-automation-papelera-de5 mins              █████████████████████████   100.00 % 
+No Activity Tracked This Week
 
 💻 Operating System: 
-WSL                      5 mins              █████████████████████████   100.00 % 
+No Activity Tracked This Week
 
 ```
 
@@ -134,7 +132,7 @@ PHP                      1 repo              █░░░░░░░░░░�
 ![Chart not found](https://raw.githubusercontent.com/lukasnunesj/lukasnunesj/master/charts/bar_graph.png) 
 
 
- Last Updated on 11/02/2023 03:17:39 UTC
+ Last Updated on 12/02/2023 03:19:45 UTC
 <!--END_SECTION:waka-->
 </details>
    
