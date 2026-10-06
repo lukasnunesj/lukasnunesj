@@ -45,10 +45,15 @@ Depending on the system: event-driven architecture, messaging, DDD, CQRS, Clean 
 
 <table>
 <tr>
-<td colspan="2" valign="top">
+<td width="50%" valign="top">
 <h4><a href="https://github.com/lukasnunesj/prisma">prisma</a></h4>
 <p>Personal finance dashboard. ASP.NET Core 8 API with EF Core and PostgreSQL, JWT with refresh-token rotation and CSRF protection, per-user data isolation, integration tests and CI. React frontend.</p>
 <sub>C# / .NET 8 · auth · integration tests · CI</sub>
+</td>
+<td width="50%" valign="top">
+<h4><a href="https://github.com/lukasnunesj/api-holerite">api-holerite</a></h4>
+<p>Payslip estimator. ASP.NET Core 8 API applying the 2026 INSS and IRRF rules, including the Lei 15.270 reduction, checked against the Receita Federal's official examples. Built for a real person, deployed on Fly.io. <a href="https://react-holerite.fly.dev">Live demo</a>.</p>
+<sub>C# / .NET 8 · xUnit · CI/CD</sub>
 </td>
 </tr>
 <tr>
