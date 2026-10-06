@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Lucas Nunes Joaquim — full-stack developer, backend inclined</title>
+  <desc id="desc">A light exploration console with stars, orbital paths, and cool blue and violet accents.</desc>
+  <defs>
+    <linearGradient id="sky" x2="1" y2="1"><stop stop-color="#f2f5fc"/><stop offset="1" stop-color="#e5ebf8"/></linearGradient>
+    <radialGradient id="nebula"><stop stop-color="#8b83d4" stop-opacity=".16"/><stop offset="1" stop-color="#8b83d4" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#172442" stroke-opacity=".035"/></pattern>
+  </defs>
+  <rect x="1" y="1" width="1198" height="358" rx="18" fill="url(#sky)" stroke="#c2cfe5"/>
+  <rect x="1" y="1" width="1198" height="358" rx="18" fill="url(#grid)"/>
+  <ellipse cx="990" cy="150" rx="220" ry="170" fill="url(#nebula)"/>
+  <g fill="#172442" opacity=".55">
+    <circle cx="834" cy="70" r="1.5"/><circle cx="908" cy="49" r="1"/><circle cx="1141" cy="88" r="1.5"/>
+    <circle cx="1080" cy="47" r="1"/><circle cx="860" cy="244" r="1"/><circle cx="1108" cy="260" r="1.5"/>
+    <circle cx="972" cy="282" r="1"/><circle cx="1148" cy="218" r="1"/><circle cx="805" cy="188" r="1"/>
+  </g>
+  <g fill="none" stroke="#899cbe" stroke-width="1">
+    <ellipse cx="992" cy="160" rx="121" ry="52" transform="rotate(-32 992 160)"/>
+    <ellipse cx="992" cy="160" rx="121" ry="52" transform="rotate(42 992 160)" opacity=".5"/>
+    <circle cx="992" cy="160" r="80" stroke-dasharray="2 10" opacity=".5"/>
+    <path d="M992 63v18 M992 239v18 M895 160h18 M1071 160h18"/>
+  </g>
+  <circle cx="992" cy="160" r="29" fill="#e0eaf8" stroke="#335ca8"/>
+  <path d="m980 153 8 7-8 7 M994 169h10" fill="none" stroke="#335ca8" stroke-width="2.5"/>
+  <circle cx="1091" cy="108" r="5" fill="#6554a4"/>
+  <circle cx="934" cy="213" r="3" fill="#335ca8"/>
+  <g font-family="Consolas, 'Liberation Mono', monospace" fill="#526482" font-size="12">
+    <text x="54" y="45" letter-spacing="2">LNJ / PERSONAL SPACE</text>
+    <text x="1146" y="45" text-anchor="end">01 — PROFILE</text>
+    <path d="M54 62h1092" stroke="#c2cfe5"/>
+    <text x="54" y="271" font-size="15"><tspan fill="#335ca8">&gt;</tspan> Software is the day job. Curiosity runs the side quests.</text>
+    <path d="M54 294h1092" stroke="#c2cfe5"/>
+    <text x="54" y="326">@lukasnunesj</text>
+    <text x="1146" y="326" text-anchor="end">BRAZIL · CODING PROFESSIONALLY SINCE 2015</text>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="50" y="157" fill="#172442" font-size="57" font-weight="700" letter-spacing="-2">Lucas Nunes Joaquim<tspan fill="#335ca8">.</tspan></text>
+    <text x="54" y="207" fill="#6554a4" font-size="24">Full-stack developer · backend inclined</text>
+  </g>
+</svg>

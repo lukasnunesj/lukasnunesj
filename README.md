@@ -1,154 +1,115 @@
-<h1 align="center">Hi 👋, I'm Lucas Nunes Joaquim</h1>
-<h3 align="center">I'm a full stack software developer, and here I will share with you some of my stuff.</h3>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg">
+  <img src="assets/header-dark.svg" alt="Lucas Nunes Joaquim — full-stack developer, backend inclined. Software is the day job. Curiosity runs the side quests." width="1200">
+</picture>
 
+<p align="center">
+  <a href="https://www.linkedin.com/in/lucasnunesjoaquim/">LinkedIn</a> ·
+  <a href="mailto:lukasnunesj@gmail.com">Email</a> ·
+  <a href="https://github.com/lukasnunesj?tab=repositories">Explore the repos</a>
+</p>
 
-<details open>
-  <summary>:speech_balloon: Info </summary>
-  
-<p>I live in Limeira, a city in the countryside of São Paulo, Brazil. I'm 22 yo, and I've been programming since 2015.  Currently, I'm working at Kabum, the biggest e-commerce of electronics from Latin America, and sometimes I play with some new technologies and tools, which I push here on this profile. </p>
-  
-- 🔭 I’m currently working on improving my skills at Javascript (Node and front end frameworks)
+### `01 / whoami`
 
-- 🌱 I’m currently learning about good practices of Clean Code! And God, I have a lot to work on.
+```text
+name      Lucas Nunes Joaquim
+role      Full-stack Software Developer
+focus     Backend · Node.js · TypeScript
+since     2015, professionally
+location  Countryside of São Paulo, Brazil
+```
 
-- 🤔 I’m looking for help with soft skills. I still need to improve at organizing.
+I've worked on enterprise systems and products: APIs, distributed services, integrations, and moving more data than anyone wants to inspect by hand. Lately I lean toward backend work, especially Node.js and TypeScript.
 
-- 💬 Ask me about literally anything! I like to talk about pretty much any topic. I love learning something new!
+This is also where the smaller, stranger ideas end up. Not everything needs a business case.
 
-- ⚡ Fun fact: I know how to read Korean alphabet even though I don't understand Korean language.
+### `02 / toolbelt`
 
-</details>
+| Where | What I reach for |
+| :--- | :--- |
+| **Core** | **TypeScript · Node.js** · C# / .NET · PostgreSQL |
+| **Interfaces** | React · Angular · Vue |
+| **Infra** | Azure · AWS · Docker · GitHub Actions · observability |
 
 <details>
-    <summary>:hammer_and_pick: Tools</summary>
+<summary>Other tools I've worked with</summary>
 
-### Languages
+Java, Ruby on Rails, PHP / Laravel, Python, SQL Server, MySQL, Redis, and Azure DevOps.
 
-- <img src="https://img.shields.io/badge/php-%23777BB4.svg?&style=for-the-badge&logo=php&logoColor=white" alt="php">
-- <img src="https://img.shields.io/badge/javascript-%23F7DF1E.svg?&style=for-the-badge&logo=javascript&logoColor=black" alt="javascript">
-- <img src="https://img.shields.io/badge/typescript%20-%23007ACC.svg?&style=for-the-badge&logo=typescript&logoColor=white" alt="typescript">
-
-### Styling
-- <img src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white" alt="html5">
-- <img src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white" alt="css3">
-- <img src="https://img.shields.io/badge/sass-%23CC6699.svg?&style=for-the-badge&logo=sass&logoColor=white" alt="sass">
-
-### Database
-- <img src="https://img.shields.io/badge/mysql-%234479A1.svg?&style=for-the-badge&logo=mysql&logoColor=white" alt="mysql">
-- <img src="https://img.shields.io/badge/postgres-%23316192.svg?&style=for-the-badge&logo=postgresql&logoColor=white" alt="postgresql">
-
-### Versioning
-- <img src="https://img.shields.io/badge/git-%23F05032.svg?&style=for-the-badge&logo=git&logoColor=white" alt="git">
-- <img src="https://img.shields.io/badge/github-%23181717.svg?&style=for-the-badge&logo=github&logoColor=white" alt="github">
-
-### Frameworks
-- Frontend
-    - <img src="https://img.shields.io/badge/angular%20-%23DD0031.svg?&style=for-the-badge&logo=angular&logoColor=white" alt="angular">
-    - <img src="https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="react">
-    - <img src="https://img.shields.io/badge/vuejs%20-%2335495e.svg?&style=for-the-badge&logo=vue.js&logoColor=%234FC08D" alt="vue">
-        <img src="https://img.shields.io/badge/nuxt%20-%2300C58E.svg?&style=for-the-badge&logo=nuxt&logoColor=%234FC08D" alt="nuxt">
-- Backend
-    - <img src="https://img.shields.io/badge/laravel%20-%23FF2D20.svg?&style=for-the-badge&logo=laravel&logoColor=white" alt="laravel">
-    - <img src="https://img.shields.io/badge/express.js%20-%23404d59.svg?&style=for-the-badge" alt="express">
-- Styling
-    - <img src="https://img.shields.io/badge/bootstrap%20-%23563D7C.svg?&style=for-the-badge&logo=bootstrap&logoColor=white" alt="bootstrap"> 
-    - <img src="https://img.shields.io/badge/materialize%20-%23ee6e73.svg?&style=for-the-badge" alt="materialize">
-
-### Systems
-- <img src="https://img.shields.io/badge/windows-%230078D6.svg?&style=for-the-badge&logo=windows&logoColor=white" alt="windows">
-- <img src="https://img.shields.io/badge/linux-%23FCC624.svg?&style=for-the-badge&logo=linux&logoColor=white" alt="linux">
-
-### Other Stuff I play sometimes
-- <img src="https://img.shields.io/badge/gulp-%23CF4647.svg?&style=for-the-badge&logo=gulp&logoColor=white" alt="gulp">
-- <img src="https://img.shields.io/badge/chart.js-%23FF6384.svg?&style=for-the-badge&logo=chart.js&logoColor=white" alt="chartjs">
+Depending on the system: event-driven architecture, messaging, DDD, CQRS, Clean Architecture, and TDD. Tools for a problem, not a checklist for every project.
 
 </details>
 
-<details>
-    <summary>:bar_chart: My stats</summary>
-    <p>
-        <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lukasnunesj&layout=compact&hide=html" alt="lukasnunesj" />
-    </p>
-    <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=lukasnunesj&show_icons=true" alt="lukasnunesj" /></p>
-    <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-1%2C308%20hrs%202%20mins-blue)
+### `03 / things I've built`
 
-**I'm a Night 🦉** 
+<table>
+<tr>
+<td width="50%" valign="top">
+<h4><a href="https://github.com/lukasnunesj/demotivational-coach">demotivational-coach</a></h4>
+<p>A Rails API serving random demotivational messages. The opposite of a motivational poster, now with an endpoint.</p>
+<sub>Ruby / Rails · dry humor as a service</sub>
+</td>
+<td width="50%" valign="top">
+<h4><a href="https://github.com/lukasnunesj/a_simple_experimental_database">a_simple_experimental_database</a></h4>
+<p>A small database experiment in C: a command-line interface, B-tree operations, and disk storage. To see what's beneath the query.</p>
+<sub>C · learning by taking the lid off</sub>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h4><a href="https://github.com/lukasnunesj/MouseGlowStarEffect">MouseGlowStarEffect</a></h4>
+<p>A glowing trail of stars that follows the cursor or a touch gesture. A tiny browser experiment with no urgent reason to exist.</p>
+<sub>JavaScript / CSS · the visual side quest</sub>
+</td>
+<td width="50%" valign="top">
+<h4><a href="https://github.com/lukasnunesj/biblioteca-a7">biblioteca-a7</a></h4>
+<p>A book catalog with a Jakarta EE REST API, PostgreSQL, and a separate Swing client. A more structured look at my backend work.</p>
+<sub>Java · API + desktop client · architecture docs</sub>
+</td>
+</tr>
+</table>
 
-```text
-🌞 Morning        1 commits       ██░░░░░░░░░░░░░░░░░░░░░░░   11.11 % 
-🌆 Daytime        3 commits       ████████░░░░░░░░░░░░░░░░░   33.33 % 
-🌃 Evening        4 commits       ███████████░░░░░░░░░░░░░░   44.44 % 
-🌙 Night          1 commits       ██░░░░░░░░░░░░░░░░░░░░░░░   11.11 % 
+[More experiments, prototypes, and things I wanted to understand ↗](https://github.com/lukasnunesj?tab=repositories)
 
-```
-📅 **I'm Most Productive on Thursday** 
+### `04 / soundtrack`
 
-```text
-Monday           2 commits       █████░░░░░░░░░░░░░░░░░░░░   22.22 % 
-Tuesday          0 commits       ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
-Wednesday        1 commits       ██░░░░░░░░░░░░░░░░░░░░░░░   11.11 % 
-Thursday         3 commits       ████████░░░░░░░░░░░░░░░░░   33.33 % 
-Friday           0 commits       ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
-Saturday         1 commits       ██░░░░░░░░░░░░░░░░░░░░░░░   11.11 % 
-Sunday           2 commits       █████░░░░░░░░░░░░░░░░░░░░   22.22 % 
+Rock, alternative rock, nu-metal. Probably a reasonable amount of Linkin Park. Probably.
 
-```
+<a href="https://open.spotify.com/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/spotify-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/spotify-light.svg">
+    <img src="assets/spotify-dark.svg" alt="Spotify listening snapshot — connection status and last checked time appear on the card" width="900">
+  </picture>
+</a>
 
+<sub>A listening snapshot, not a live player. Refreshes every 30 minutes once connected.</sub>
 
-📊 **This Week I Spent My Time On** 
+### `05 / outside the terminal`
 
-```text
-⌚︎ Time Zone: America/Sao_Paulo
+- **Games:** Outer Wilds, Tunic, Hollow Knight. Exploration, secrets, and finding out what that door was hiding.
+- **Stories:** anime, manga, manhwa, and webnovels. Shadow Slave and Lord of the Mysteries fit the lore rabbit hole nicely.
+- **Experiments:** new tools, AI-assisted development, little automations, and interfaces that are fun to look at.
 
-💬 Programming Languages: 
-Java                     1 hr 8 mins         █████████████████░░░░░░░░   67.64 % 
-Bash                     25 mins             ██████░░░░░░░░░░░░░░░░░░░   24.88 % 
-Other                    3 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   03.28 % 
-Git Config               2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   02.06 % 
-Markdown                 1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   01.69 % 
+### `06 / public signals`
 
-🔥 Editors: 
-VS Code                  1 hr 41 mins        █████████████████████████   100.00 % 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/activity-light.svg">
+  <img src="assets/activity-dark.svg" alt="Public original repository count and primary languages by repository; generated daily from GitHub public data" width="900">
+</picture>
 
-🐱‍💻 Projects: 
-ui-automation-papelera-de1 hr 38 mins        ████████████████████████░   96.65 % 
-ui-automation-irm-argenti3 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   03.35 % 
+<sub>Public experiments aren't a complete picture of my professional stack. A lot of the day job stays private.</sub>
 
-💻 Operating System: 
-WSL                      1 hr 41 mins        █████████████████████████   100.00 % 
+#### The contribution graph has a small predator.
 
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/snake-light.svg">
+  <img src="assets/snake-dark.svg" alt="An animated snake eating my GitHub contribution graph, regenerated daily" width="900">
+</picture>
 
-**I Mostly Code in TypeScript** 
+---
 
-```text
-TypeScript               8 repos             ███████████░░░░░░░░░░░░░░   47.06 % 
-HTML                     3 repos             ████░░░░░░░░░░░░░░░░░░░░░   17.65 % 
-JavaScript               3 repos             ████░░░░░░░░░░░░░░░░░░░░░   17.65 % 
-Java                     1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   05.88 % 
-PHP                      1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   05.88 % 
-
-```
-
-
-**Timeline**
-
-![Chart not found](https://raw.githubusercontent.com/lukasnunesj/lukasnunesj/master/charts/bar_graph.png) 
-
-
- Last Updated on 22/02/2023 03:18:48 UTC
-<!--END_SECTION:waka-->
-</details>
-   
-<details open>
-    <summary>:mailbox: Contact me</summary>
-    <a href="https://www.linkedin.com/in/lucasnunesjoaquim/" target="_blank"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin"/></a>
-    <a href="mailto:lukasnunesj@gmail.com" target="_blank"><img src="https://img.shields.io/badge/gmail-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" alt="gmail"/></a>
-</details>
-
-- - - 
-
-### :headphones: Checkout what I'm listening to
-
-[![Spotify](https://novatorem.lukasnunesj.vercel.app/api/spotify)](https://open.spotify.com/user/lukasnunej)
+**Say hello:** [LinkedIn](https://www.linkedin.com/in/lucasnunesjoaquim/) · [Email](mailto:lukasnunesj@gmail.com) · [GitHub](https://github.com/lukasnunesj)

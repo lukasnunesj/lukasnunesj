@@ -1,0 +1,75 @@
+name: Profile assets
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - '.github/workflows/profile-assets.yml'
+      - 'scripts/profile_assets.py'
+  schedule:
+    - cron: '17 3 * * *'
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: profile-assets
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - name: Check out the latest default branch
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+
+      - name: Generate contribution snake
+        if: github.event_name != 'schedule' || github.event.schedule == '17 3 * * *'
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
+        with:
+          github_user_name: lukasnunesj
+          github_token: ${{ github.token }}
+          outputs: |
+            assets/snake-dark.svg?palette=github-dark&color_snake=#a5b4fc&color_dots=#151e32,#25415d,#37658a,#5797bd,#7dd3fc
+            assets/snake-light.svg?palette=github-light&color_snake=#6554a4&color_dots=#e8edf7,#c8dcf0,#91b9d9,#5b90bd,#335ca8
+
+      - name: Refresh public repository summary
+        if: github.event_name != 'schedule' || github.event.schedule == '17 3 * * *'
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 scripts/profile_assets.py activity
+
+      - name: Refresh Spotify snapshot
+        id: spotify
+        continue-on-error: true
+        env:
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+          SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
+        run: python3 scripts/profile_assets.py spotify
+
+      - name: Publish changed assets
+        env:
+          PROFILE_BRANCH: ${{ github.event.repository.default_branch }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/snake-*.svg assets/activity-*.svg assets/spotify-*.svg
+          if ! git diff --cached --quiet; then
+            git commit -m 'chore: refresh profile assets'
+            git push origin "HEAD:$PROFILE_BRANCH"
+          fi
+
+      - name: Report Spotify connection failure
+        if: steps.spotify.outcome == 'failure'
+        run: |
+          echo 'Spotify update failed. Last snapshot remains dated; see setup in docs/PROFILE.md.'
+          exit 1
