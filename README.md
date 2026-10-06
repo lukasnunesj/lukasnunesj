@@ -15,12 +15,12 @@
 ```text
 name      Lucas Nunes Joaquim
 role      Full-stack Software Developer
-focus     Backend · Node.js · TypeScript
+focus     Backend · C# / .NET · TypeScript
 since     2015, professionally
 location  Countryside of São Paulo, Brazil
 ```
 
-I've worked on enterprise systems and products: APIs, distributed services, integrations, and moving more data than anyone wants to inspect by hand. Lately I lean toward backend work, especially Node.js and TypeScript.
+I've worked on enterprise systems and products: APIs, distributed services, integrations, and moving more data than anyone wants to inspect by hand. Lately I lean toward backend work, especially C# / .NET, Node.js and TypeScript.
 
 This is also where the smaller, stranger ideas end up. Not everything needs a business case.
 
@@ -28,7 +28,7 @@ This is also where the smaller, stranger ideas end up. Not everything needs a bu
 
 | Where | What I reach for |
 | :--- | :--- |
-| **Core** | **TypeScript · Node.js** · C# / .NET · PostgreSQL |
+| **Core** | **C# / .NET · TypeScript · Node.js** · PostgreSQL |
 | **Interfaces** | React · Angular · Vue |
 | **Infra** | Azure · AWS · Docker · GitHub Actions · observability |
 
@@ -45,27 +45,22 @@ Depending on the system: event-driven architecture, messaging, DDD, CQRS, Clean 
 
 <table>
 <tr>
+<td colspan="2" valign="top">
+<h4><a href="https://github.com/lukasnunesj/prisma">prisma</a></h4>
+<p>Personal finance dashboard. ASP.NET Core 8 API with EF Core and PostgreSQL, JWT with refresh-token rotation and CSRF protection, per-user data isolation, integration tests and CI. React frontend.</p>
+<sub>C# / .NET 8 · auth · integration tests · CI</sub>
+</td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <h4><a href="https://github.com/lukasnunesj/demotivational-coach">demotivational-coach</a></h4>
 <p>A Rails API serving random demotivational messages. The opposite of a motivational poster, now with an endpoint.</p>
 <sub>Ruby / Rails · dry humor as a service</sub>
 </td>
 <td width="50%" valign="top">
-<h4><a href="https://github.com/lukasnunesj/a_simple_experimental_database">a_simple_experimental_database</a></h4>
-<p>A small database experiment in C: a command-line interface, B-tree operations, and disk storage. To see what's beneath the query.</p>
-<sub>C · learning by taking the lid off</sub>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
 <h4><a href="https://github.com/lukasnunesj/MouseGlowStarEffect">MouseGlowStarEffect</a></h4>
 <p>A glowing trail of stars that follows the cursor or a touch gesture. A tiny browser experiment with no urgent reason to exist.</p>
 <sub>JavaScript / CSS · the visual side quest</sub>
-</td>
-<td width="50%" valign="top">
-<h4><a href="https://github.com/lukasnunesj/biblioteca-a7">biblioteca-a7</a></h4>
-<p>A book catalog with a Jakarta EE REST API, PostgreSQL, and a separate Swing client. A more structured look at my backend work.</p>
-<sub>Java · API + desktop client · architecture docs</sub>
 </td>
 </tr>
 </table>
