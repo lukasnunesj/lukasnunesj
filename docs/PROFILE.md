@@ -36,7 +36,7 @@ The public repository card and asset publication use this repository's `GITHUB_T
 - [actions/checkout v7.0.1](https://github.com/actions/checkout/releases/tag/v7.0.1)
 - [Platane/snk v3.5.0](https://github.com/Platane/snk/releases/tag/v3.5.0), SVG-only action
 
-There are no npm dependencies. The snake reuses the already configured `GH_TOKEN`; its credential must remain valid. Do not delete this secret while the snake uses it. It publishes only the six generated cards, not the README or header. Runs are serialized; pushes are normal fast-forward pushes, never forced. An unrelated push during a run may cause a safe failure; rerun the workflow.
+There are no npm dependencies. The snake reuses the already configured `GH_TOKEN`; its credential must remain valid. If the action reports HTTP 401 / Bad credentials, update this repository secret with a valid token for the profile owner. The existing legacy token was found invalid during the private-contribution fix; do not assume a secret name means its credential works. Do not delete this secret while the snake uses it. It publishes only the six generated cards, not the README or header. Runs are serialized; pushes are normal fast-forward pushes, never forced. An unrelated push during a run may cause a safe failure; rerun the workflow.
 
 GitHub schedules are best effort and can be delayed. Scheduled workflows in inactive public repositories can be disabled after 60 days. Re-enable the workflow in Actions if needed. Spotify is a dated snapshot, not an instantaneous now-playing widget. Refreshes can create bot commits; only changed assets are committed.
 
@@ -90,7 +90,7 @@ The helper asks for Client ID and Client Secret without echoing them, opens the 
 
 Only the refresh token is printed to stdout on success. Prompts and instructions go to stderr. Errors return a nonzero exit status without printing Spotify response bodies. It does not save credentials, set GitHub secrets, or modify any repository. Copy the returned token into the `SPOTIFY_REFRESH_TOKEN` repository secret. Run the helper locally, never in Actions or a shared terminal recording.
 
-Keep credentials out of the repository, screenshots, issues, and Actions logs. A missing configuration shows a connection-pending card. A partial configuration fails with a safe error. HTTP failures preserve the last successful, timestamped snapshot and make the workflow report failure; other successfully generated assets can still be published. A Spotify 401 usually requires reviewing the app credentials or renewing authorization; a 403 may indicate app access restrictions or missing scopes.
+Keep credentials out of the repository, screenshots, issues, and Actions logs. A missing configuration shows a connection-pending card. A partial configuration fails with a safe error. HTTP failures preserve the last successful, timestamped snapshot and make the workflow report failure; other successfully generated assets can still be published. A failed snake request likewise preserves the previous animation without preventing Spotify or public repository updates. A Spotify 401 usually requires reviewing the app credentials or renewing authorization; a 403 may indicate app access restrictions or missing scopes.
 
 The widget links to Spotify, not to an assumed account username. The legacy README's username differed from the GitHub handle, so it was not reused without verification.
 

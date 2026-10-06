@@ -32,6 +32,8 @@ jobs:
           ref: ${{ github.event.repository.default_branch }}
 
       - name: Generate contribution snake
+        id: snake
+        continue-on-error: true
         if: github.event_name != 'schedule' || github.event.schedule == '17 3 * * *'
         uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
         with:
@@ -68,8 +70,8 @@ jobs:
             git push origin "HEAD:$PROFILE_BRANCH"
           fi
 
-      - name: Report Spotify connection failure
-        if: steps.spotify.outcome == 'failure'
+      - name: Report integration connection failure
+        if: steps.spotify.outcome == 'failure' || steps.snake.outcome == 'failure'
         run: |
-          echo 'Spotify update failed. Last snapshot remains dated; see setup in docs/PROFILE.md.'
+          echo 'A profile integration failed. Previous assets were preserved; see setup in docs/PROFILE.md.'
           exit 1
