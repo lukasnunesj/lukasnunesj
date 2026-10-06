@@ -45,27 +45,20 @@ Depending on the system: event-driven architecture, messaging, DDD, CQRS, Clean 
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 <h4><a href="https://github.com/lukasnunesj/prisma">prisma</a></h4>
 <p>Personal finance dashboard. ASP.NET Core 8 API with EF Core and PostgreSQL, JWT with refresh-token rotation and CSRF protection, per-user data isolation, integration tests and CI. React frontend.</p>
 <sub>C# / .NET 8 · auth · integration tests · CI</sub>
 </td>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 <h4><a href="https://github.com/lukasnunesj/api-holerite">api-holerite</a></h4>
-<p>Payslip estimator. ASP.NET Core 8 API applying the 2026 INSS and IRRF rules, including the Lei 15.270 reduction, checked against the Receita Federal's official examples. Built for a real person, deployed on Fly.io. <a href="https://react-holerite.fly.dev">Live demo</a>.</p>
+<p>Payslip estimator. ASP.NET Core 8 API applying the 2026 INSS and IRRF rules, including the Lei 15.270 reduction, checked against the Receita Federal's official examples. Built for a real person, deployed on Fly.io.</p>
 <sub>C# / .NET 8 · xUnit · CI/CD</sub>
 </td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<h4><a href="https://github.com/lukasnunesj/demotivational-coach">demotivational-coach</a></h4>
-<p>A Rails API serving random demotivational messages. The opposite of a motivational poster, now with an endpoint.</p>
-<sub>Ruby / Rails · dry humor as a service</sub>
-</td>
-<td width="50%" valign="top">
-<h4><a href="https://github.com/lukasnunesj/MouseGlowStarEffect">MouseGlowStarEffect</a></h4>
-<p>A glowing trail of stars that follows the cursor or a touch gesture. A tiny browser experiment with no urgent reason to exist.</p>
-<sub>JavaScript / CSS · the visual side quest</sub>
+<td width="33%" valign="top">
+<h4><a href="https://github.com/lukasnunesj/react-holerite">react-holerite</a></h4>
+<p>The frontend for api-holerite: enter salary, extra hours and deductions and see the estimated payslip. <a href="https://react-holerite.fly.dev">Live demo</a>.</p>
+<sub>React · Vite · Tailwind · Jest · Fly.io</sub>
 </td>
 </tr>
 </table>

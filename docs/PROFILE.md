@@ -104,14 +104,13 @@ Inspected the complete working README and committed legacy README, all tracked f
 - Removed the expired website link everywhere in this repository. Removed the old employer/title from the CLI without refactoring it.
 - Preserved `src/`, `lib/`, `package.json`, and `yarn.lock`: these implement the separately published `lucasnunesj` CLI, not README generation. Dependencies remain legacy; the package's `test` is an interactive demo, not a regression suite. No CLI dependency installation or npm publication was performed.
 
-Selected four original projects after inspecting their public code:
+Features three original projects, chosen for the current C# / .NET focus after inspecting their code, tests and CI:
 
-- **demotivational-coach:** Rails controller serves random demotivational JSON messages. Its README is generic, but the source substantiates the memorable premise.
-- **a_simple_experimental_database:** C CLI with B-tree operations and disk persistence. Presented as a learning experiment, not a production database.
-- **MouseGlowStarEffect:** browser cursor/touch star effect; its palette already fits this profile's visual interests. Linked to source rather than assuming the old hosted demo is alive.
-- **biblioteca-a7:** more recent Java/Jakarta EE REST API and Swing client, PostgreSQL, and architecture documentation. Described technically without making job searching central to the profile.
+- **prisma:** ASP.NET Core 8 API (EF Core, PostgreSQL) with JWT refresh-token rotation, CSRF protection and per-user data isolation, plus a React frontend. Integration tests and CI.
+- **api-holerite:** ASP.NET Core 8 payslip estimator applying the 2026 INSS and IRRF rules, including the Lei 15.270 reduction. Checked against the Receita Federal's official examples; deployed on Fly.io.
+- **react-holerite:** React frontend for `api-holerite`, deployed on Fly.io.
 
-Other candidates were considered: `Generative-Art` has a small canvas experiment but no README; `bookfindr` is a Vue/Google Books study; `ScrumPoker` and `word-of-the-day` lack root READMEs. `ai-job-search` is a fork of MadsLorentzen's project; `enigma_do_medo` is also a fork. They were not presented as original work or chosen over the four above.
+Earlier cards (`demotivational-coach`, `MouseGlowStarEffect`, `biblioteca-a7`) were removed to keep the focus on the projects above. Those repositories stay public, just not featured. `Generative-Art` has a small canvas experiment but no README; `bookfindr` is a Vue/Google Books study; `ScrumPoker` and `word-of-the-day` lack root READMEs. `ai-job-search` is a fork of MadsLorentzen's project; `enigma_do_medo` is also a fork. They were not presented as original work.
 
 ### Widget decisions
 
