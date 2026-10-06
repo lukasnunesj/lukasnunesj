@@ -31,12 +31,12 @@ The public code chart counts primary repository languages, not lines of code or 
 
 The workflow also supports `workflow_dispatch`. A push changing the generator or workflow on `master` starts a full refresh. Scheduled workflows only run on the default branch. Manual runs on other branches are deliberately skipped.
 
-Only this repository's `GITHUB_TOKEN` is needed for the GitHub features. The job has `contents: write` because it commits generated assets back to the default branch; no other permissions are granted. The actions are pinned to verified release SHAs:
+The public repository card and asset publication use this repository's `GITHUB_TOKEN`. The snake uses the existing `GH_TOKEN` repository secret, authenticated as the profile owner, to include private contribution counts. The built-in repository token can omit those counts even when the public profile displays them. No private repository names or source code are published. The job has `contents: write` because it commits generated assets back to the default branch; no other permissions are granted. The actions are pinned to verified release SHAs:
 
 - [actions/checkout v7.0.1](https://github.com/actions/checkout/releases/tag/v7.0.1)
 - [Platane/snk v3.5.0](https://github.com/Platane/snk/releases/tag/v3.5.0), SVG-only action
 
-There are no npm dependencies or extra personal access tokens for this workflow. It publishes only the six generated cards, not the README or header. Runs are serialized; pushes are normal fast-forward pushes, never forced. An unrelated push during a run may cause a safe failure; rerun the workflow.
+There are no npm dependencies. The snake reuses the already configured `GH_TOKEN`; its credential must remain valid. Do not delete this secret while the snake uses it. It publishes only the six generated cards, not the README or header. Runs are serialized; pushes are normal fast-forward pushes, never forced. An unrelated push during a run may cause a safe failure; rerun the workflow.
 
 GitHub schedules are best effort and can be delayed. Scheduled workflows in inactive public repositories can be disabled after 60 days. Re-enable the workflow in Actions if needed. Spotify is a dated snapshot, not an instantaneous now-playing widget. Refreshes can create bot commits; only changed assets are committed.
 
@@ -141,4 +141,4 @@ Release and endpoint checks were performed during implementation in October 2026
 - Legacy JavaScript syntax and `git diff --check` pass. The legacy CLI itself was not rerun with installed dependencies.
 - Hosted Actions execution and an authenticated Spotify playback request remain unverified: publication is explicitly out of scope, and Spotify secrets are not configured. These are activation steps, not successful live integrations claimed by this change.
 
-The retired `GH_TOKEN` and `WAKATIME_API_KEY` repository secrets are now unused and may be removed manually after reviewing whether anything outside this repository relies on them.
+`GH_TOKEN` is required by the snake. The retired `WAKATIME_API_KEY` is unused and may be removed manually after reviewing whether anything outside this repository relies on it.
